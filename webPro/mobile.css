@@ -1,0 +1,59 @@
+.logo{
+  padding: 10px;
+  float: none;
+  text-align: center;
+  color: #f4f4f4;
+}
+nav ul li,nav{
+  float: none;
+  text-align: center;
+}
+nav ul li a{
+  padding: 13px;
+  border-bottom: 1px dotted #f4f33333;
+}
+.showcase{
+  height: 400px;
+}
+.showcase .content{
+  position: relative;
+  top: 100px;
+}
+.showcase .content h1{
+  line-height: 30px;
+}
+.showcase .content p{
+  line-height: 25px;
+}
+.left_card{
+  display: none;
+}
+.right_card{
+  padding-top: 10px;
+  float: none;
+  width: 100%;
+}
+.box{
+  float: none;
+  width: 100%;
+}
+#about_info .info_right,#about_info .info_left
+{
+  float: none;
+  width: 100%;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  min-height: 50%;
+}
+#test_monials{
+  padding-top: 40px;
+}
+#contact_form .container_form{
+  width: 100%;
+}
+#contact_info{
+  height: 629px;
+}
+#contact_info .box{
+  border-bottom: 1px dotted #333;
+}

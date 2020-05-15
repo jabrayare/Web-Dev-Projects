@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Website | project One</title>
+  <link rel="stylesheet" href="./CSS/all.css">
+  <link rel="stylesheet" href="hotel.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css">
+</head>
+<body>
+  <header class="head">
+    <div class="logo">
+      <h1>JBL</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="hotel.html">Home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html" class="primary_text">contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="contact_form">
+    <div class="container_form">
+        <h1 class=""><span class="primary_text">Contact</span> Us</h1>
+      <form action="process.php">
+        <div class="form_group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="form_group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email">
+        </div>
+        <div class="form_group">
+          <label for="message">Message</label>
+          <textarea type="text" name="message" id="message"></textarea>
+          <button class="btn" type="submit" name="submit">Submit</button>
+        </div>
+      </form>
+  </div>  
+  </section>
+  <section id="contact_info">
+      <div class="box">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h3>Location</h3>
+        <p>505 Morse Road, Columbus OH. 43229</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-phone fa-3x"></i>
+        <h3>Phone Number</h3>
+        <p>(614)757-9999</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-envelope fa-3x"></i>
+        <h3>Email Adress</h3>
+        <p>helpDesk.JBL@gmail.com</p>
+      </div>
+  </section>
+  <div class="clr"></div>
+  <footer id="main_footer">
+    <p>Hotel BT &copy; 2020, All rights reserved.</p>
+  </footer>
+</body>
+</html>
